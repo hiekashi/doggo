@@ -1,0 +1,16 @@
+meta {
+  name: getpizzalist
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://pizzas.shrp.dev/items/pizzas?filter[base].eq=Tomate&filter[price].eq=12
+  body: none
+  auth: none
+}
+
+query {
+  filter[base].eq: Tomate
+  filter[price].eq: 12
+}
