@@ -5,6 +5,87 @@
   text-align: center;
 }
 
+.list{
+  display: flex;
+  margin-top:150px;
+  flex-wrap: wrap;
+  padding: 32px;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+#logo{
+  width:50px;
+  height:auto;
+}
+
+.logo{
+  display: flex;
+  gap:16px;
+  align-items: center;
+}
+
+#space{
+  padding:16px;
+}
+
+.all{
+  position:fixed;
+  top: 0; /* Place la barre de navigation au sommet de la page */
+  left: 0;
+  width: 100%; /* Occupera toute la largeur de la fenêtre */
+  z-index: 1000;
+}
+
+.navbar{
+  background-color: #B90000;
+  height:50px;
+  font-size: 12px;
+  padding: 32px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter{
+  display: flex;
+  padding:32px;
+  align-items: center;
+  gap:16px;
+  background-color: white;
+  font-size: 12px;
+  border-bottom: solid 1px #B90000;
+}
+
+.button{
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: white;
+  border: solid 2px #B90000;
+  color: #B90000;
+  font-size: 12px;
+}
+
+.button:hover, .button_navbar:hover{
+  border: solid 2px #650000;
+  color : #650000;
+}
+
+.button_navbar{
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: #B90000;
+  border: solid 2px white;
+  color: white;
+  font-size: 16px;
+}
+
+#titre{
+  font-size: 32px;
+  color:white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
